@@ -1,5 +1,6 @@
 # BISEFWD
-
+智慧养老
+node.js - egg.js - mySQL
 
 
 ## QuickStart
