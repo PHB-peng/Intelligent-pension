@@ -1,0 +1,1 @@
+<picker mode="multiSelector" value="{{multiIndex}}" range="{{multiArray}}" data-event-opts="{{[['change',[['handleValueChange',['$event']]]],['columnchange',[['handleColumnChange',['$event']]]]]}}" onChange="__e" onColumnchange="__e"><slot></slot></picker>

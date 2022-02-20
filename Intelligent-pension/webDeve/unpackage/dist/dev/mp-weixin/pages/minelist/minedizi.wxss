@@ -1,0 +1,24 @@
+
+.region{
+	width: auto;
+	height: 35rpx;
+	font-size: 40rpx;
+	font-weight: 200;
+	border-color: #C0BF97;
+	margin-top:15rpx;
+}
+.regionloac {
+	width: auto;
+	height: 200rpx;
+	font-weight: 200;
+	font-size: 40rpx;
+	border-color: #C0BF97;
+	margin-top:250rpx;
+}
+.regionloac input{
+	margin-top: 25rpx;
+}
+.subt button{
+	background-color: #ffff7f;
+}
+

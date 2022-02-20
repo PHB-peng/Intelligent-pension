@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/paper/paper",
+    "pages/minelist/heat/heat",
+    "pages/minelist/mineperson",
+    "pages/mine/mine",
+    "pages/home/home",
+    "pages/mine/login",
+    "pages/mine/register",
+    "pages/news/news",
+    "pages/home-list/senghuoList",
+    "pages/home-list/wudaoList",
+    "pages/minelist/mineper/mineper",
+    "pages/minelist/minedizi",
+    "pages/minelist/mineper/dizi/dizi"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "uni-app",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/home/home",
+        "name": "视听教学",
+        "icon": "static/tabbar/shipinjiaoxue.png",
+        "activeIcon": "static/tabbar/shipinjiaoxue1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "name": "在线服务",
+        "icon": "static/tabbar/zaixianfuwu.png",
+        "activeIcon": "static/tabbar/zaixianfuwu1.png"
+      },
+      {
+        "pagePath": "pages/paper/paper",
+        "name": "五色码",
+        "icon": "static/tabbar/qrcode.png",
+        "activeIcon": "static/tabbar/qrcode1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "name": "我的",
+        "icon": "static/tabbar/wode.png",
+        "activeIcon": "static/tabbar/wode1.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

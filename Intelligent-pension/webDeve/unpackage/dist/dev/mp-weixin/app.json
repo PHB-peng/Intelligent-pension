@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/paper/paper",
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/minelist/heat/heat",
+    "pages/minelist/mineperson",
+    "pages/mine/mine",
+    "pages/home/home",
+    "pages/mine/login",
+    "pages/mine/register",
+    "pages/news/news",
+    "pages/home-list/senghuoList",
+    "pages/home-list/wudaoList",
+    "pages/minelist/mineper/mineper",
+    "pages/minelist/minedizi",
+    "pages/minelist/mineper/dizi/dizi"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "在线养老",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/tabbar/shipinjiaoxue.png",
+        "selectedIconPath": "static/tabbar/shipinjiaoxue1.png",
+        "text": "视听教学"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/zaixianfuwu.png",
+        "selectedIconPath": "static/tabbar/zaixianfuwu1.png",
+        "text": "医药综合"
+      },
+      {
+        "pagePath": "pages/paper/paper",
+        "iconPath": "static/tabbar/qrcode.png",
+        "selectedIconPath": "static/tabbar/qrcode1.png",
+        "text": "五色码"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/tabbar/wode.png",
+        "selectedIconPath": "static/tabbar/wode1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

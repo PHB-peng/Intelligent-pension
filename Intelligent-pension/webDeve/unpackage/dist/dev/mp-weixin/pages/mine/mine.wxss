@@ -1,0 +1,57 @@
+
+.heardimag{
+	height: 250rpx;
+	width: 100%;
+}
+.heardimag image{
+	height: 200rpx;
+	width: 100%;
+}
+.heardimag .heardname{
+	position: relative;
+	left: 250rpx;
+	top: -225rpx;
+}
+.yhtxiang{
+		height: 100rpx;
+		width: 100rpx;
+		border: 5rpx solid #555555;
+		-webkit-border-radius: 50%;
+		        border-radius: 50%;
+		z-index: 99rpx;
+		overflow: hidden;
+		position: relative;
+		top: -150rpx;
+		left: 50rpx;
+}
+.yhtxiang image{
+	height: 155rpx;
+	width: 155rpx;
+	position: relative;
+	left: -27rpx;
+	top: -29rpx;
+}
+.minebody{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-flex-wrap:wrap;
+	        flex-wrap:wrap;
+}
+.minebody .minelist{
+	height: 260rpx;
+	width: 260rpx;
+	background-color: #74acff;
+	font-size: 50rpx;
+	font-weight: 1000;
+	border: #F1F1F1 solid 18rpx;
+	text-align: center;
+	line-height: 300rpx;
+}
+.minefoot{
+	padding: 40rpx;
+}
+
+

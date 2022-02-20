@@ -1,0 +1,35 @@
+<template>
+	<view class="content">
+		<video  controls id="itemvideo" controls class="videoplay" src="https://upos-sz-mirrorkodo.bilivideo.com/upgcxcode/51/13/264921351/264921351-1-192.mp4?e=ig8euxZM2rNcNbNMhzdVhwdlhbKzhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1620923277&gen=playurlv2&os=kodobv&oi=3230723835&trid=0aa2b9b5ec0246dc97d8f6ab6528b0a8T&platform=html5&upsig=45ac835b6097d128516b6acc0e1b4f05&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=580104086&orderid=0,1&logo=80000000"></video>
+			
+	</view>
+</template>  
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'Hello'
+			}
+		},
+		onLoad() {
+
+		},
+		onReady: function(res) {
+		        this.videoContext = uni.createVideoContext('itemvideo');
+				// this.videoContext.requestFullScreen(ture());
+				this.videoContext.play();
+				return this.VideoContext
+		    },
+		methods: {
+		
+		}
+	}
+</script>
+
+<style>
+video{
+	width: 100%;
+	height: 700upx;
+}
+</style>

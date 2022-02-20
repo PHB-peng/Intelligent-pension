@@ -1,0 +1,118 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/paper/paper",
+			"style": {
+			// 	"navigationBarTitleText": "mine"
+			 }
+		},{
+			"path": "pages/index/index",
+			"style": {
+			// 	"navigationBarTitleText": "mine"
+			 }
+		},{
+			"path": "pages/cart/cart",
+			"style": {
+			// 	"navigationBarTitleText": "mine"
+			 }
+		},{
+			"path": "pages/minelist/heat/heat",
+			"style": {
+			// 	"navigationBarTitleText": "mine"
+			 }
+		},{
+			"path": "pages/minelist/mineperson",
+			"style": {
+			// 	"navigationBarTitleText": "mine"
+			 }
+		},{
+			"path": "pages/mine/mine",
+			"style": {
+			// 	"navigationBarTitleText": "mine"
+			 }
+		},{
+			"path": "pages/home/home",
+			"style": {
+			// 	"navigationBarTitleText": "index"
+			 }
+		},{
+		"path": "pages/mine/login",
+		"style": {}
+		},{
+		"path": "pages/mine/register",
+		"style": {}
+		},{
+			"path": "pages/news/news",
+			"style": {
+			// 	"navigationBarTitleText": ""
+			 }
+		},{
+			"path": "pages/home-list/senghuoList",
+			"style": {
+				// "navigationBarTitleText": ""
+			}
+		},{
+			"path": "pages/home-list/wudaoList",
+			"style": {
+				// "navigationBarTitleText": "mine",
+				}
+			}
+	    ,{
+            "path" : "pages/minelist/mineper/mineper",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+			"path": "pages/minelist/minedizi",
+			"style": {
+				// "navigationBarTitleText": "mine",
+				}
+			
+			}
+        ,{
+            "path" : "pages/minelist/mineper/dizi/dizi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/home/home",
+	        "iconPath": "static/tabbar/shipinjiaoxue.png",
+	        "selectedIconPath": "static/tabbar/shipinjiaoxue1.png",
+	        "text": "视听教学"
+	    }, {
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/tabbar/zaixianfuwu.png",
+	        "selectedIconPath": "static/tabbar/zaixianfuwu1.png",
+	        "text": "医药综合"
+	    }, {
+	        "pagePath": "pages/paper/paper",
+	        "iconPath": "static/tabbar/qrcode.png",
+	        "selectedIconPath": "static/tabbar/qrcode1.png",
+	        "text": "五色码"
+	    }, {
+	        "pagePath": "pages/mine/mine",
+	        "iconPath": "static/tabbar/wode.png",
+	        "selectedIconPath": "static/tabbar/wode1.png",
+	        "text": "我的"
+	    }]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "在线养老",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "pick-regions": "/pages/minelist/pick-regions"
+  }
+}

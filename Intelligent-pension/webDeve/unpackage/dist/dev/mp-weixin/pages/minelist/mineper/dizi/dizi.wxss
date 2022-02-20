@@ -1,0 +1,18 @@
+
+.dizifont{
+	text-align: center;
+	line-height: 250rpx;
+	font-size: 40rpx;
+	font-weight: 200;
+	border: #c0bf97 4rpx solid;
+	width: auto;
+	height: 250rpx;
+	background-color: #edf2ff;
+	margin: 8rpx;
+	-webkit-border-radius:25px;
+	        border-radius:25px;
+}
+.dizibutt button{
+	background-color: #007AFF;
+}
+

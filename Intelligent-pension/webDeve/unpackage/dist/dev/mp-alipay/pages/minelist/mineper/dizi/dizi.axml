@@ -1,0 +1,1 @@
+<view class="dizibox"><view class="diziname dizifont">{{"姓名："+name}}</view><view class="diziare dizifont">{{'地址：'+location+''}}</view><view class="dizitle dizifont">{{'电话：'+tlenum+''}}</view><view class="dizibutt"><button type="warn" data-event-opts="{{[['tap',[['dzchan']]]]}}" onTap="__e">填写 / 修改</button></view></view>

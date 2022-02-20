@@ -1,0 +1,1 @@
+<view><view class="tx-w"><view class="tx"><image class="tx-img" src="{{yonghuwx.avatarUrl}}"></image><view class="zx"></view></view><view class="name">{{yonghuwx.nickName+''}}</view><view class="name-qm">自然的美好的，你的</view></view></view>

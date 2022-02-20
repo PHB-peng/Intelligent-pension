@@ -1,0 +1,23 @@
+
+.tx-w{
+	margin-top:200rpx;
+}
+.tx{
+	text-align:center;
+}
+.tx image{
+	width:140rpx;
+	height:140rpx;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+.name{
+	text-align:center;
+	margin-top:20rpx;
+}
+.name-qm{
+	text-align:center;
+	margin-top:20rpx;
+	font-size:30rpx;
+}
+

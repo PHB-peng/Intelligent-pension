@@ -1,0 +1,1 @@
+<view class="lineSerc"><view data-event-opts="{{[['tap',[['todetection']]]]}}" class="detection" onTap="__e">预约检测</view><view data-event-opts="{{[['tap',[['todrug']]]]}}" class="drug" onTap="__e">送药</view><view data-event-opts="{{[['tap',[['todtd']]]]}}" class="dtd" onTap="__e">上门护理</view><view class="anHp">急助</view></view>
